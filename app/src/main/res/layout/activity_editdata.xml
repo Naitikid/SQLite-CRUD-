@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.EditdataActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/updateName"
+            android:maxLines="@integer/maxLines1"
+            android:layout_width="@dimen/dimens_0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/dimens_30dp"
+            android:layout_marginTop="@dimen/dimens_70dp"
+            android:layout_marginEnd="@dimen/dimens_30dp"
+            android:hint="@string/insertName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:maxLines="@integer/maxLines1"
+            android:id="@+id/updateSurename"
+            android:layout_width="@dimen/dimens_0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/dimens_30dp"
+            android:layout_marginTop="@dimen/dimens_20dp"
+            android:layout_marginEnd="@dimen/dimens_30dp"
+            android:hint="@string/insertsurname"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/updateName" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:maxLines="@integer/maxLines1"
+            android:id="@+id/updateCompanyname"
+            android:layout_width="@dimen/dimens_0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/dimens_30dp"
+            android:layout_marginTop="@dimen/dimens_20dp"
+            android:layout_marginEnd="@dimen/dimens_30dp"
+            android:hint="@string/insertcompanyname"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/updateSurename" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:inputType="text"
+            android:maxLines="@integer/maxLines1"
+            android:id="@+id/updateEmail"
+            android:layout_width="@dimen/dimens_0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/dimens_30dp"
+            android:layout_marginTop="@dimen/dimens_20dp"
+            android:layout_marginEnd="@dimen/dimens_30dp"
+            android:hint="@string/insertemail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/updateCompanyname" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:inputType="number"
+            android:maxLines="@integer/maxLines1"
+            android:id="@+id/updatephonenumber"
+            android:layout_width="@dimen/dimens_0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/dimens_30dp"
+            android:layout_marginTop="@dimen/dimens_20dp"
+            android:layout_marginEnd="@dimen/dimens_30dp"
+            android:hint="@string/insertphonenumber"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/updateEmail" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/updatedataBtn"
+            android:layout_width="@dimen/dimens_0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/dimens_30dp"
+            android:layout_marginTop="@dimen/dimens_150dp"
+            android:layout_marginEnd="@dimen/dimens_30dp"
+            android:text="@string/updatedata"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/updatephonenumber" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

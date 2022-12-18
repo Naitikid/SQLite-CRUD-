@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SqliteTest</string>
+    <string name="welcometoapplication">Wel Come to Application</string>
+    <string name="adduser">Add User</string>
+    <string name="name">Name</string>
+    <string name="phonenumber">Phone Number</string>
+    <string name="insertName">Name</string>
+    <string name="insertsurname">Surname</string>
+    <string name="insertcompanyname">Company Name</string>
+    <string name="insertemail">Email</string>
+    <string name="insertphonenumber">Phone Number</string>
+    <string name="insertdata">Insert Data</string>
+    <string name="updatedata">Update Data</string>
+    <string name="insert">Data is insert</string>
+    <string name="error">This field is required</string>
+    <string name="nodatafound">No DATA FOUND</string>
+</resources>
